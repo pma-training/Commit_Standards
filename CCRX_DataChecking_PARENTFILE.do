@@ -52,11 +52,11 @@ set maxvar 30000
 *******************************************************************************
 *BEFORE USE THE FOLLOWING NEED TO BE UPDATED:
 *Country/Round/Abbreviations
-global Country CD	 
-global Round Round7
-global round 7
-global country CD
-global CCRX CDR7
+global Country US	 
+global Round Round1
+global round 1
+global country US
+global CCRX USR1
 
 *Locals (Dont need to Update)
 local Country "$Country"
@@ -64,14 +64,14 @@ local Round "$Round"
 local CCRX "$CCRX"
 
 *Year of the Survey
-local SurveyYear 2018 
-local SYShort 18 
+local SurveyYear 2019 
+local SYShort 19
 
 ******CSV FILE NAMES ****
 *HHQ CSV File name 
-global HHQcsv CDR7_Household_Questionnaire_v6
+global HHQcsv USR1_Household_Questionnaire_v6
 *FQ CSV File name
-global FQcsv CDR7_Female_Questionnaire_v6
+global FQcsv USR1_Female_Questionnaire_v6
 
 ***If the REs used a second version of the form, update these 
 *If they did not use a second version, DONT UPDATE 
